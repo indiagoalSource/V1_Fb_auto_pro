@@ -133,7 +133,7 @@ public class verifyAddtoCartfunctionFlipkart {
 	@AfterTest
 	public void closeBrowser() {
 		
-	//	driver.quit();
+		driver.quit();
 		driver = null ;
 		System.gc();
 	}
